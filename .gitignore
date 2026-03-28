@@ -1,7 +1,6 @@
-.Rproj.user
-.Rhistory
-.RData
-.Ruserdata
-
-/.quarto/
-.update.sh
+# Only push rendered docs/ to GitHub
+# Ignore all source files
+*
+!docs/
+!docs/**
+!.gitignore
